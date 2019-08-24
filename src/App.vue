@@ -1,17 +1,24 @@
 <template>
-  <div id="app"></div>
+  <v-app>
+    <Welcome />
+    <v-content>
+      <Schedule />
+    </v-content>
+  </v-app>
 </template>
 
 <script>
-</script>
+import Welcome from "./components/welcome.vue";
+import Schedule from "./components/schedule.vue";
 
-<style>
-#app {
-  font-family: "Avenir", Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
+export default {
+  name: "App",
+  components: {
+    Welcome,
+    Schedule
+  },
+  data: () => ({
+    //
+  })
+};
+</script>
