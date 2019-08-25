@@ -27,3 +27,7 @@ yarn run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+### Images Licenses
+
+Milano Duomo: This file is licensed under the Creative Commons Attribution 2.0 Generic license.

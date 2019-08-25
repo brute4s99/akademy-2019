@@ -5,7 +5,7 @@
       color="#fcb69f"
       dark
       shrink-on-scroll
-      src="https://picsum.photos/1920/1080?random"
+      src="../assets/Milan_Cathedral_(Duomo_di_Milano)_evening.jpg"
       scroll-target="#scrolling-techniques-2"
     >
       <template v-slot:img="{ props }">
