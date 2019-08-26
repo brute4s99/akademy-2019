@@ -3,13 +3,23 @@
   "short_name": "Akademy 2019",
   "icons": [
     {
+      "src": "./img/icons/kde-128x128.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
       "src": "./img/icons/kde-192x192.png",
       "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "./img/icons/kde-512x512.png",
+      "sizes": "512x512",
       "type": "image/png"
     }
   ],
   "start_url": "./index.html",
   "display": "standalone",
-  "background_color": "#000000",
-  "theme_color": "#4DBA87"
+  "background_color": "#ffffff",
+  "theme_color": "#027be3"
 }
