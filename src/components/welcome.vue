@@ -13,6 +13,13 @@
       </template>
       <v-toolbar-title>Akademy 2019</v-toolbar-title>
       <div class="flex-grow-1"></div>
+      <v-img
+        src="../assets/kde-mini.png"
+        position="center"
+        aspect-ratio="1"
+        max-width="70"
+        max-height="70"
+      ></v-img>
     </v-app-bar>
     <v-sheet id="scrolling-techniques-2" class="overflow-y-auto" max-height="600">
       <v-container style="height: 200px;"></v-container>
