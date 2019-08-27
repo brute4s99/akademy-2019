@@ -1,15 +1,21 @@
 language: node_js
 
-cache: yarn
-
 node_js:
   - 12.9.0
 
-script:
-  - yarn install
-  - yarn build
-  - yarn deploy
+cache:
+  yarn: true
+  directories:
+    - node_modules
 
-branches:
-  only:
-    - master
+script:
+  - yarn run build
+
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token: $GH_TOKEN
+  local-dir: 'dist/'
+  on:
+    branch: master
+  verbose: true
