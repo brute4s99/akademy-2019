@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/akademy-2019/precache-manifest.f794ec832ad6d04ba21d35b94eafd28b.js"
+  "/akademy-2019/precache-manifest.276a8084c4e5d905bcf298d677e8c66f.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "akademy2019"});
