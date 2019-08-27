@@ -8,8 +8,6 @@ node_js:
 script:
   - yarn install
   - yarn build
-
-deploy:
   - yarn deploy
 
 branches:
